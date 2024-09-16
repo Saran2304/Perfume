@@ -53,7 +53,8 @@ body {
     padding: 15px;
     font-size: 18px;
 }
-.topics li a{
+
+.topics li a {
     text-decoration: none;
     color: black;
 }
@@ -178,7 +179,8 @@ body {
     width: 170px;
     text-align: center;
 }
-.perfume1{
+
+.perfume1 {
     height: 370px;
 }
 
@@ -252,7 +254,8 @@ body {
     margin-top: 60px;
     justify-content: space-around;
 }
-.popular1 img{
+
+.popular1 img {
     height: 250px;
     width: 200px;
 }
@@ -277,10 +280,12 @@ body {
     list-style: none;
     margin-top: 15px;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     color: black;
 }
+
 .account {
     width: 15%;
     border: 2px solid aliceblue;
@@ -492,12 +497,13 @@ body {
         height: 120px;
         width: 150px;
     }
+
     .rs {
         text-decoration: line-through;
         position: absolute;
         margin-left: 0px;
     }
-    
+
     .rs1 {
         position: absolute;
         margin-top: 20px;
@@ -514,7 +520,8 @@ body {
         justify-content: center;
         height: 150px;
     }
-    .footer1 li{
+
+    .footer1 li {
         display: flex;
         justify-content: center;
         justify-content: start;
@@ -524,7 +531,7 @@ body {
         display: none;
     }
 
-    .contact{
+    .contact {
         display: flex;
         justify-content: start;
     }
