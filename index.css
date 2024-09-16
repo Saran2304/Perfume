@@ -53,6 +53,10 @@ body {
     padding: 15px;
     font-size: 18px;
 }
+.topics li a{
+    text-decoration: none;
+    color: black;
+}
 
 .topics li:hover {
     color: goldenrod;
@@ -65,14 +69,12 @@ body {
     background-color: white;
     height: 120px;
     width: 170px;
-    /* opacity: 0.5; */
     padding: 10px 15px;
     position: absolute;
     z-index: 1;
     margin-left: 49%;
     margin-top: 20px;
     animation: animi1 0.3s linear;
-    /* transition: all 1s; */
 }
 
 @keyframes animi1 {
@@ -93,7 +95,6 @@ body {
 }
 
 .body li {
-    /* padding: 10px; */
     color: black;
     line-height: 2;
 }
@@ -276,7 +277,10 @@ body {
     list-style: none;
     margin-top: 15px;
 }
-
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
 .account {
     width: 15%;
     border: 2px solid aliceblue;
@@ -320,9 +324,7 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 49%;
-    /* margin-left: 34%; */
     margin-top: 3.8%;
-    /* position: absolute; */
 }
 
 .img2 {
@@ -331,7 +333,6 @@ body {
     border-radius: 49%;
     margin-left: 2.5%;
     margin-top: 3%;
-    /* position: absolute; */
 }
 
 .img3 {
@@ -340,7 +341,6 @@ body {
     border-radius: 49%;
     margin-left: 2.5%;
     margin-top: 3.8%;
-    /* position: absolute; */
 }
 
 .content {
@@ -477,17 +477,14 @@ body {
     }
 
     .img1 {
-        /* margin-left: 34%; */
         margin-top: 3.8%;
     }
 
     .img2 {
-        /* margin-left: 2.5%; */
         margin-top: 3%;
     }
 
     .img3 {
-        /* margin-left: 2.5%; */
         margin-top: 3.8%;
     }
 
@@ -516,8 +513,6 @@ body {
         flex-direction: column;
         justify-content: center;
         height: 150px;
-        /* width: 100%; */
-        /* margin-left: 120px; */
     }
     .footer1 li{
         display: flex;
