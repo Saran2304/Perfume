@@ -513,12 +513,21 @@ body {
 }
 
 
-@media screen and (min-width:166px) and (max-width:854px) {
+@media screen and (min-width:320px) and (max-width:854px) {
     .footer1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 150px;
+    }
+
+    .center {
+        height: 250px;
+    }
+
+    .center img {
+        height: 250px;
+        width: 100%;
     }
 
     .footer1 li {
