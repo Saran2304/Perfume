@@ -545,4 +545,8 @@ body {
         justify-content: start;
     }
 
+    .perfume1:hover .add {
+        display: none;
+    }
+
 }
